@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<meta name="apple-touch-fullscreen" content="yes" />
+	<meta name="format-detection" content="email=no" />
+	<meta name="wap-font-scale" content="no" />
+	<meta name="viewport" content="user-scalable=no, width=device-width" />
+	<meta content="telephone=no" name="format-detection" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>国际新闻</title>
+	<!--
+	<meta name="description"
+		content="AXUI，面向设计，满足设计多样化需求的前端解决方案，减少或剔除JS文件资源和API。能用css写的不用js；能用js写的不用插件；能用插件的不重复使用插件。通过观察本框架的核心文件会发现核心文件只有ax.css和ax.js，加载速度飞快。">
+	<meta name="keywords" content="前端框架,UI,CSS3,HTML5,jQuery,面向设计,前端工程师">
+	-->
+	<link href="https://at.alicdn.com/t/font_1551254_sk7y2quxfyq.css" rel="stylesheet" type="text/css" />
+	<link href="css/ax.css?v=1.1" rel="stylesheet" type="text/css">
+	<link href="css/ax-response.css?v=1.1" rel="stylesheet" type="text/css">
+
+	<link href="css/ax-admin02.css?v=1.1" rel="stylesheet" type="text/css">
+	<link href="css/internationalNews.css" rel="stylesheet" type="text/css">
+
+	<link rel="stylesheet" href="../assets/css/plugins/plugins.min.css">
+	<link rel="stylesheet" href="../assets/css/style.min.css">
+
+	<script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
+	<script src="js/ax.min.js?v=1.1" type="text/javascript"></script>
+	<script type="text/javascript" src="js/scrollnav.min.js"></script>
+	<script src="js/ax-admin02.js?v=1.1" type="text/javascript"></script>
+	<style>
+		.ax-menu>li>a .ax-name {
+			font-weight: normal;
+			font-size: 16px;
+		}
+		.main-header-area {
+			box-shadow: 0 1px 5px 0 rgb(0 0 0 / 20%);
+		}
+		.header-transparent .main-nav>ul>li>a {
+			color: #212121;
+		}
+		.main-nav>ul>li {
+			position: relative;
+			display: flex;
+			align-items: center;
+			/*height: 65px;*/
+		}
+	</style>
+</head>
+
+<body class="ax-admin">
+	<!-- Header Area Start Here -->
+	<div class="main-header-area header-transparent header-sticky" style="position: relative;">
+		<!-- Main Header Area Start -->
+		<div class="main-header">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-2 col-xl-2 col-md-6 col-6">
+						<div class="header-logo d-flex align-items-center">
+							<a href="../index.html">
+								<img style="display: block;" class="nonsticky-logo img-full"
+									src="../assets/images/logo/logo.png" alt="Header Logo">
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-10 col-md-6 col-6 d-flex justify-content-end">
+						<nav class="main-nav d-none d-lg-flex">
+							<ul class="nav">
+								<li>
+									<a class="active" href="../index.html"><span class="menu-text">首页</span>
+									</a>
+								</li>
+								<li><a href="#"><span class="menu-text">产品及服务</span><i class="fa fa-angle-down"></i></a>
+									<ul class="dropdown-submenu dropdown-hover">
+										<li><a href="./txyTanpaifangAdmin.html?isItem=1">碳排放管理软件</a></li>
+										<li><a href="./tanGuanlizixun.html?isItem=2">碳管理咨询</a></li>
+										<!-- <li><a href="index.html">碳账户平台</a></li> -->
+										<li><a href="./keChixuIT.html?isItem=3">可持续领域IT开发</a></li>
+										<!-- <li><a href="index.html">客户案例</a></li> -->
+									</ul>
+								</li>
+								<li><a href="#"><span class="menu-text">新闻动态</span><i
+											class="fa fa-angle-down"></i></a>
+									<ul class="dropdown-submenu dropdown-hover">
+										<li><a href="./nationalNews.html">国内新闻</a></li>
+										<li><a href="./internationalNews.html">国际新闻</a></li>
+									</ul>
+								</li>
+								<!-- <li><a href="about.html"><span class="menu-text">关于我们</span></a></li> -->
+								<li>
+									<a href="#"><span class="menu-text">关于我们</span><i class="fa fa-angle-down"></i></a>
+									<ul class="dropdown-submenu dropdown-hover">
+										<li><a href="../about.html">公司简介</a></li>
+										<li><a href="../contact.html">联系我们</a></li>
+									</ul>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Header Area End Here -->
+	<div class="new_title_box">
+		<img src="./images/news_title_bg.jpg" alt="">
+		<div>
+			<p>新闻动态</p>
+			<p>News & Trends</p>
+		</div>
+	</div>
+	<div class="news_title_tab_box">
+		<div class="container">
+			<div>
+				<a href="./nationalNews.html">国内新闻</a>
+			</div>
+			<div>
+				<a style="color: #122179;border-bottom: 2px solid #122179;" href="./internationalNews.html">国际新闻</a>
+			</div>
+		</div>
+	</div>
+	<!-- Slider/Intro Section Start -->
+	<div class="container">
+		<div class="news_list_box">
+			<ul>
+				<li>
+					<div class="item">
+						<div class="list_title">
+							<h3 data-num='0'>哈萨克斯坦制定《实现碳中和目标愿景》</h3>
+						</div>
+						<div class="list_desc">
+							<p>
+								哈通社努尔苏丹9月17日电，据哈萨克斯坦生态、地质和自然资源部消息，美国和中亚国家“C5+1”气候问题部长级会晤当天以视频形式举行。
+							</p>
+						</div>
+						<div class="list_see_desc">
+							<div>
+								<div>2022-2-11</div>
+								<div>阅读量 357</div>
+							</div>
+							<div>
+								<div class="btn" data-num='0'>查看详情</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="item">
+						<div class="list_title">
+							<h3 data-num='1'>新加坡推行绿色交通等可持续性规划 2030年之前圣淘沙要达成“碳中和”</h3>
+						</div>
+						<div class="list_desc">
+							<p>
+								《联合早报》中文版9月18日报道：圣淘沙发展局昨天宣布开始实行“圣淘沙可持续性规划”（Sustainable Sentosa Strategic Roadmap），协助推进2030年新加坡绿色发展蓝图。圣淘沙将多管齐下，改变岛内交通所使用的能源，开发运用可持续能源，以及与岛上商家合作减碳等，在2030年前达成“碳中和”目标。
+							</p>
+						</div>
+						<div class="list_see_desc">
+							<div>
+								<div>2022-1-21</div>
+								<div>阅读量 1285</div>
+							</div>
+							<div>
+								<div class="btn" data-num='1'>查看详情</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="item">
+						<div class="list_title">
+							<h3 data-num='2'>澳大利亚将试行氢气源头保证计划</h3>
+						</div>
+						<div class="list_desc">
+							<p>
+								这可以让未来客户了解市场上氢气的源头和生产排放量，并对购买哪种氢气做出明智选择（类似于可再生能源引进计划）。
+								该计划还要保证制取绿色氢气的整个过程都要环保无污染。
+								在众多氢气战略中，“源头保证（guarantee of origin）”计划是澳大利亚准备优先开展的早期项目，该项目将在完成公众咨询后再开展试验。
+								广义上来说，这项试验也是为了引进国际认证方案，推广跟踪生产技术，明确生产过程中的碳排放并确认生产地点。
+								今后澳大利亚还将大力推广该计划，实现为各地区甚至各国量身定制。到目前为止，还没有其他国家实施此类计划，澳大利亚很有可能将其推广到世界各地。
+								澳大利亚能源部长安格斯·泰勒（Angus Taylor）表示，根据行业反馈来看，澳大利亚的计划要与国际接轨，并向该国贸易伙伴进行项目推广。
+							</p>
+						</div>
+						<div class="list_see_desc">
+							<div>
+								<div>2021-12-22</div>
+								<div>阅读量 6546</div>
+							</div>
+							<div>
+								<div class="btn" data-num='2'>查看详情</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="item">
+						<div class="list_title">
+							<h3 data-num='3'>中国气候变化事务特使：美国应奋起直追与各方合作应对气候变化</h3>
+						</div>
+						<div class="list_desc">
+							<p>
+								中国气候变化事务特使解振华2日在《联合国气候变化框架公约》第二十六次缔约方大会（COP26）举办的中外媒体记者会上说，美国上届政府退出《巴黎协定》，耽误全球应对气候变化多边进程长达5个年头，美国现在应奋起直追，与各方共同合作。
+								作为《巴黎协定》签署的亲历者，解振华说，2015年联合国气候变化大会达成《巴黎协定》，反映了世界发展的大趋势，来之不易，不能轻言放弃，但美国上届政府却在2017年宣布退出《巴黎协定》，直到今年才重返《巴黎协定》，耽误全球应对气候变化多边进程长达5个年头。
+								解振华指出，《巴黎协定》展现了最大的包容性、可达性，协定提出的在本世纪内将全球温度升幅与前工业化时期相比控制在2摄氏度以内，并力争控制在1.5摄氏度之内的浮动目标，是现实的，是符合实际的。
+							</p>
+						</div>
+						<div class="list_see_desc">
+							<div>
+								<div>2021-12-08</div>
+								<div>阅读量 2566</div>
+							</div>
+							<div>
+								<div class="btn" data-num='3'>查看详情</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="item">
+						<div class="list_title">
+							<h3 data-num='4'>《中非应对气候变化合作宣言》正式出炉</h3>
+						</div>
+						<div class="list_desc">
+							<p>
+								中非合作论坛第八届部长级会议于11月29日至30日在塞内加尔首都达喀尔举行，会议于30日通过《中非应对气候变化合作宣言》。全文如下：
+								1.我们，中华人民共和国、53个非洲国家和非洲联盟委员会代表团团长一致认为，气候变化及其负面影响是全人类共同面临的迫切问题和当今世界面临的最严峻挑战之一。合力应对气候变化，关系到人类的未来。人类需要一场革命，通过加快可负担的绿色低碳转型等方式减缓气候变化影响，助力可持续发展，共同构建人与自然生命共同体。  
+							</p>
+						</div>
+						<div class="list_see_desc">
+							<div>
+								<div>2021-12-06</div>
+								<div>阅读量 6546</div>
+							</div>
+							<div>
+								<div class="btn" data-num='4'>查看详情</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="item">
+						<div class="list_title">
+							<h3 data-num='5'>破纪录！欧盟碳价突破75欧元</h3>
+						</div>
+						<div class="list_desc">
+							<p>
+								欧盟碳价在过去一周高歌猛进，一度突破每吨75欧元。
+								11月22日开盘，欧盟碳排放配额（EUA）12月期货主力合约报70.18欧元/吨，创下自2005年以来的新高，较年初翻了一番。
+								即将组建的德国三党联合政府表示将对本国碳价格设置“地板价”（不允许碳价跌至每吨60欧元以下）之后，11月24日欧盟碳排放配额创下每吨73.18欧元的新高。11月25日创下新纪录，达每吨75.04欧元。
+							</p>
+						</div>
+						<div class="list_see_desc">
+							<div>
+								<div>2021-11-22</div>
+								<div>阅读量 2766</div>
+							</div>
+							<div>
+								<div class="btn" data-num='5'>查看详情</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="item">
+						<div class="list_title">
+							<h3 data-num='6'>联合国秘书长欢迎中美承诺在气候行动上开展合作</h3>
+						</div>
+						<div class="list_desc">
+							<p>
+								联合国秘书长古特雷斯11月11日表示，中国和美国已同意在气候行动上进行更密切的合作，这是朝着正确方向迈出的重要一步。
+								中美两国都是温室气体的主要排放国，两国发表联合宣言的消息于当晚晚些时候在格拉斯哥传出。自上周以来，《联合国气候变化框架公约》第26届缔约方大会一直在格拉斯哥进行。
+								中美联合宣言提到政府间气候变化专门委员会最近发布的报告，该报告以惊人的细节描述了应对气候紧急情况的迫切需要，并指出两国都认识到危机的严重性，同时承认目前为应对危机所做的努力与实现2015年第二十一届缔约方会议达成的《巴黎协定》目标所需采取的步骤之间仍然存在重大差距。
+							</p>
+						</div>
+						<div class="list_see_desc">
+							<div>
+								<div>2021-11-11</div>
+								<div>阅读量 2861</div>
+							</div>
+							<div>
+								<div class="btn" data-num='6'>查看详情</div>
+							</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+<!--	<div class="ax-scrollnav-v" id="article-nav01"><a href="##" class="ax-close ax-iconfont ax-icon-arrow-right"></a></div>-->
+
+	<script src="js/svgSprites.js?v=1.1" type="text/javascript"></script>
+	<script type='text/javascript'>
+		$(document).ready(function () {
+			$('#menu-basic').axMenu({ cookie: true });
+			$(".ax-nav-main,body").axScroll({ horizrailenabled: false });
+			var articlenav01 = document.querySelector('#article-nav01');
+			scrollnav.init(article01, {
+				insertTarget: articlenav01,
+			});
+
+		});
+	</script>
+<!--	 <script src="../assets/js/vendor/vendor.min.js"></script>-->
+<!--	 <script src="../assets/js/plugins/plugins.min.js"></script>-->
+	<!--Main JS-->
+	<script src="../assets/js/main.js"></script>
+	<script>
+		(function () {
+			$('.news_list_box .list_title h3').click(function () {
+				window.location.href = './newsDetail.html?isType=' + 2 + '&num=' + $(this).data().num
+			})
+			$('.news_list_box .item .btn').click(function () {
+				window.location.href = './newsDetail.html?isType=' + 2 + '&num=' + $(this).data().num
+			})
+		})()
+	</script>
+</body>
+</html>

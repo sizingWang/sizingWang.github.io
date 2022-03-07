@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<meta name="apple-touch-fullscreen" content="yes" />
+	<meta name="format-detection" content="email=no" />
+	<meta name="wap-font-scale" content="no" />
+	<meta name="viewport" content="user-scalable=no, width=device-width" />
+	<meta content="telephone=no" name="format-detection" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>碳资产管理系统</title>
+	<!--
+	<meta name="description"
+		content="AXUI，面向设计，满足设计多样化需求的前端解决方案，减少或剔除JS文件资源和API。能用css写的不用js；能用js写的不用插件；能用插件的不重复使用插件。通过观察本框架的核心文件会发现核心文件只有ax.css和ax.js，加载速度飞快。">
+	<meta name="keywords" content="前端框架,UI,CSS3,HTML5,jQuery,面向设计,前端工程师">
+	-->
+	<link href="https://at.alicdn.com/t/font_1551254_sk7y2quxfyq.css" rel="stylesheet" type="text/css" />
+	<link href="css/ax.css?v=1.1" rel="stylesheet" type="text/css">
+	<link href="css/ax-response.css?v=1.1" rel="stylesheet" type="text/css">
+
+	<link href="css/ax-admin02.css?v=1.1" rel="stylesheet" type="text/css">
+
+	<link rel="stylesheet" href="../assets/css/plugins/plugins.min.css">
+	<link rel="stylesheet" href="../assets/css/style.min.css">
+
+	<script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
+	<script src="js/ax.min.js?v=1.1" type="text/javascript"></script>
+	<script type="text/javascript" src="js/scrollnav.min.js"></script>
+	<script src="js/ax-admin02.js?v=1.1" type="text/javascript"></script>
+	<style>
+		.ax-menu>li>a .ax-name {
+			font-weight: normal;
+			font-size: 16px;
+		}
+		.main-header-area {
+			box-shadow: 0 1px 5px 0 rgb(0 0 0 / 20%);
+		}
+		.header-transparent .main-nav>ul>li>a {
+			color: #212121;
+		}
+		.main-nav>ul>li {
+			position: relative;
+			display: flex;
+			align-items: center;
+			/*height: 65px;*/
+		}
+	</style>
+</head>
+
+<body class="ax-admin">
+	<!-- Header Area Start Here -->
+	<div class="main-header-area header-transparent header-sticky" style="position: relative;">
+		<!-- Main Header Area Start -->
+		<div class="main-header">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-2 col-xl-2 col-md-6 col-6">
+						<div class="header-logo d-flex align-items-center">
+							<a href="../index.html">
+								<img style="display: block;" class="nonsticky-logo img-full"
+									src="../assets/images/logo/logo.png" alt="Header Logo">
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-10 col-md-6 col-6 d-flex justify-content-end">
+						<nav class="main-nav d-none d-lg-flex">
+							<ul class="nav">
+								<li>
+									<a class="active" href="../index.html"><span class="menu-text">首页</span>
+									</a>
+								</li>
+								<li><a href="#"><span class="menu-text">产品及服务</span><i class="fa fa-angle-down"></i></a>
+									<ul class="dropdown-submenu dropdown-hover">
+										<li><a href="./txyTanpaifangAdmin.html?isItem=1">碳排放管理软件</a></li>
+										<li><a href="./tanGuanlizixun.html?isItem=2">碳管理咨询</a></li>
+										<!-- <li><a href="index.html">碳账户平台</a></li> -->
+										<li><a href="./keChixuIT.html?isItem=3">可持续领域IT开发</a></li>
+										<!-- <li><a href="index.html">客户案例</a></li> -->
+									</ul>
+								</li>
+								<li><a href="#"><span class="menu-text">新闻动态</span><i
+											class="fa fa-angle-down"></i></a>
+									<ul class="dropdown-submenu dropdown-hover">
+										<li><a href="./nationalNews.html">国内新闻</a></li>
+										<li><a href="./internationalNews.html">国际新闻</a></li>
+										<!-- <li><a href="#">国际新闻</a></li> -->
+									</ul>
+								</li>
+								<!-- <li><a href="about.html"><span class="menu-text">关于我们</span></a></li> -->
+								<li>
+									<a href="#"><span class="menu-text">关于我们</span><i class="fa fa-angle-down"></i></a>
+									<ul class="dropdown-submenu dropdown-hover">
+										<li><a href="../about.html">公司简介</a></li>
+										<li><a href="../contact.html">联系我们</a></li>
+									</ul>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Header Area End Here -->
+	<!-- Slider/Intro Section Start -->
+	<div class="container">
+		<!--nav-->
+		<nav class="ax-flex-col ax-nav">
+			<!--
+		<div class="ax-nav-header">
+			<a href="##" class="ax-logo"><img src="images/ax-logo.png" /></a>
+			<a href="##" class="ax-close-nav ax-iconfont ax-icon-menu-fold"></a>
+		</div>
+		-->
+			<div class="ax-flex-block ax-nav-main">
+				<ul class="ax-menu ax-style-dot" id="menu-basic">
+					<li>
+						<a href="##">
+							<img src="./images/tanpaifang.png" alt=""
+								style="width: 20px; height: 20px; margin-right: 8px;">
+							<span class="ax-name">碳排放管理软件</span>
+							<span class="ax-arrow ax-iconfont ax-icon-right"></span>
+						</a>
+						<ul>
+							<li>
+								<a href="./txyTanpaifangAdmin.html">
+									<span class="ax-name" style="color: #9A9A9A">碳排放管理系统</span>
+								</a>
+							</li>
+							<li>
+								<a href="./tanzichanAdmin.html">
+									<span class="ax-name" style="color: #9A9A9A">碳资产管理系统</span>
+								</a>
+							</li>
+							<li>
+								<a href="./tanjiaoyisuoAdmin.html">
+									<span class="ax-name" style="color: #9A9A9A">碳交易管理系统</span>
+								</a>
+							</li>
+							<li>
+								<a href="./chanpintanzujiAdmin.html">
+									<span class="ax-name" style="color: #9A9A9A">产品碳足迹管理</span>
+								</a>
+							</li>
+							<li>
+								<a href="./nengYuanGuanliAdmin.html">
+									<span class="ax-name" style="color: #9A9A9A">能源管理系统</span>
+								</a>
+							</li>
+							<!--
+							<li>
+								<a href="./index.html">
+									<span class="ax-name" style="color: #9A9A9A">政府碳管理软件</span>
+								</a>
+							</li>
+							<li>
+								<a href="##">
+									<span class="ax-name" style="color: #9A9A9A">电力行业</span>
+								</a>
+							</li>
+							-->
+						</ul>
+					</li>
+
+					<li>
+						<a href="#">
+							<img src="./images/tanguanli.png" alt=""
+								style="width: 20px; height: 20px; margin-right: 8px;">
+							<span class="ax-name">碳管理咨询</span>
+							<span class="ax-arrow ax-iconfont ax-icon-right"></span>
+						</a>
+						<ul>
+							<li>
+								<a href="./tanGuanlizixun.html">
+									<span class="ax-name" style="color: #9A9A9A">碳管理咨询</span>
+								</a>
+							</li>
+							<li>
+								<a href="./tanHecha.html">
+									<span class="ax-name" style="color: #9A9A9A">碳核查</span>
+								</a>
+							</li>
+							<li>
+								<a href="./lvSegongchang.html">
+									<span class="ax-name" style="color: #9A9A9A">绿色工厂</span>
+								</a>
+							</li>
+							<li>
+								<a href="./tanGuanliPeiXun.html">
+									<span class="ax-name" style="color: #9A9A9A">碳管理培训</span>
+								</a>
+							</li>
+							<li>
+								<a href="./qiYeESGzixun.html">
+									<span class="ax-name" style="color: #9A9A9A">企业ESG咨询</span>
+								</a>
+							</li>
+							<li>
+								<a href="./qiYeCCERzixun.html">
+									<span class="ax-name" style="color: #9A9A9A">企业CCER咨询</span>
+								</a>
+							</li>
+							<li>
+								<a href="./qiTaZixunxiangmu.html">
+									<span class="ax-name" style="color: #9A9A9A">其它咨询项目</span>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<!--
+					<li>
+						<a href="#">
+							<img src="./images/tanzhanghu.png" alt=""
+								style="width: 20px; height: 20px; margin-right: 8px;">
+							<span class="ax-name">碳账户平台</span>
+						</a>
+					</li>
+					-->
+					<li>
+						<a href="./keChixuIT.html">
+							<img src="./images/kecixu.png" alt="" style="width: 20px; height: 20px; margin-right: 8px;">
+							<span class="ax-name">可持续领域IT开发</span>
+						</a>
+					</li>
+					<!--
+					<li>
+						<a href="#">
+							<img src="./images/kehuanli.png" alt=""
+								style="width: 20px; height: 20px; margin-right: 8px;">
+							<span class="ax-name">客户案例</span>
+						</a>
+					</li>
+					-->
+				</ul>
+				<div class="ax-mask"></div>
+				<!--收缩后的遮罩层，点击可重新展开菜单-->
+			</div>
+		</nav>
+		<!--end-->
+		<!--header-->
+		<!--
+	<header class="ax-flex-row">
+		<div class="ax-flex-block">
+			<div class="ax-breadcrumb"><a href="##">说明文档</a><i class="ax-gutter ax-iconfont ax-icon-right"></i><span>系统API</span></div>
+		</div>
+		<div class="ax-header-search"><input type="text" name="" placeholder="关键字..."/> <a href="##" class="ax-iconfont ax-icon-search"></a></div>
+	</header>
+	-->
+		<div class="ax-space-header"></div>
+		<!--头部占位-->
+		<!--main-->
+		<main id="article01">
+			<div class="ax-padding">
+
+				<h5>系统定位</h5>
+				<p><img src="./images/shouye_bg1.png" alt=""></p>
+				<p>碳析云碳资产管理系统，通过碳排放核算、配额管理、 交易辅助、绩效管理，CCER 跟踪和碳金融等业务拓展，全方位辅助企业实现碳资产的自我管理。</p>
+				<div class="ax-break"></div>
+				<div class="ax-break"></div>
+
+				<h5>系统优势</h5>
+				<p>1.摸清自身碳家底，减少对第三方机构的依赖，降低企业人力、时间、资金成本的消耗。</p>
+				<p>2.实现对企业碳配额“分前有盘点、分时有评估、分后有跟踪”的策略辅助；配额发放前提供配额的试算和摸底盘查,配额发放后对配额使用制定计划和全程跟踪动态查看下属企业的配额变化情况 。</p>
+				<p>3.配额使用管理：各控排企业可根据生产经营活动需要对配额的使用制定计划安排，并持续跟踪使用情况，加强配额管理能力，集团可随时查看配额计划及使用内容，指导控排企业的资源合理配置。</p>
+				<p>4.配额履约管理：提前制定履约方案，在履约到期前，控排企业提交碳排报告和检测计划后，同时登陆碳排放注册登记系统操作清缴与注销配额操作，以完成履约。</p>
+				<div class="ax-break"></div>
+				<div class="ax-break"></div>
+
+				<h5>碳析云区块链碳资产管理系统</h5>
+				<br>
+				<h5>区块链技术应用：包括存证溯源、业务合作、资产交易、数据存储。</h5>
+				<p>1.存证溯源：数据上报存证、数据上报存证、资产交易存证，数据链可追溯。</p>
+				<p>2.业务合作：身份共识、数据共享、跨平台合作、数据上报。</p>
+				<p>3.资产交易：合约交易，去中心化交易，通证交易。</p>
+				<p>4.数据存储：多重身份，去中心化存储防篡改。</p>
+				<h5>技术服务架构：智能合约层、信息服务端、链下数据层。</h5>
+				<p>1.智能合约层：碳排放数据合约、碳配额资产合约、CCER项目全周期合约、其他绿减项目资产合约、内部碳配额匹配交易合约、碳市场交易合约、碳配额履约合约。</p>
+				<p>2.信息服务端：响应前端多方（集团公司，集团下属公司，监管方等）的增、查、改请求，对接区块链。</p>
+				<p>3.链下数据层：包括节点私钥、身份验证私钥等，以及数据量较大时采用Mysql等对链上数据进行缓存以加速查询。</p>
+				<div class="ax-break"></div>
+				<div class="ax-break"></div>
+				<h5>服务方案</h5>
+				<p>详情欢迎致电碳析云; 请点击链接 <a href="../contact.html" style="color: #122179">联系我们</a></p>
+				<div class="ax-break"></div>
+				<div class="ax-break"></div>
+
+			</div>
+		</main>
+	</div>
+	<div class="ax-scrollnav-v" id="article-nav01"><a href="##" class="ax-close ax-iconfont ax-icon-arrow-right"></a></div>
+
+	<script src="js/svgSprites.js?v=1.1" type="text/javascript"></script>
+	<script type='text/javascript'>
+		$(document).ready(function () {
+			$('#menu-basic').axMenu({ cookie: true });
+			setTimeout(() => {
+				$(".ax-nav-main,body").axScroll({ horizrailenabled: false });
+				var articlenav01 = document.querySelector('#article-nav01');
+				scrollnav.init(article01, {
+					insertTarget: articlenav01,
+				}, 2000);
+			})
+
+		});
+	</script>
+<!--	 <script src="../assets/js/vendor/vendor.min.js"></script>-->
+<!--	 <script src="../assets/js/plugins/plugins.min.js"></script>-->
+	<!--Main JS-->
+	<script src="../assets/js/main.js"></script>
+</body>
+</html>

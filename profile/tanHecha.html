@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<meta name="apple-touch-fullscreen" content="yes" />
+	<meta name="format-detection" content="email=no" />
+	<meta name="wap-font-scale" content="no" />
+	<meta name="viewport" content="user-scalable=no, width=device-width" />
+	<meta content="telephone=no" name="format-detection" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>碳核查</title>
+	<!--
+	<meta name="description"
+		content="AXUI，面向设计，满足设计多样化需求的前端解决方案，减少或剔除JS文件资源和API。能用css写的不用js；能用js写的不用插件；能用插件的不重复使用插件。通过观察本框架的核心文件会发现核心文件只有ax.css和ax.js，加载速度飞快。">
+	<meta name="keywords" content="前端框架,UI,CSS3,HTML5,jQuery,面向设计,前端工程师">
+	-->
+	<link href="https://at.alicdn.com/t/font_1551254_sk7y2quxfyq.css" rel="stylesheet" type="text/css" />
+	<link href="css/ax.css?v=1.1" rel="stylesheet" type="text/css">
+	<link href="css/ax-response.css?v=1.1" rel="stylesheet" type="text/css">
+
+	<link href="css/ax-admin02.css?v=1.1" rel="stylesheet" type="text/css">
+
+	<link rel="stylesheet" href="../assets/css/plugins/plugins.min.css">
+	<link rel="stylesheet" href="../assets/css/style.min.css">
+
+	<script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
+	<script src="js/ax.min.js?v=1.1" type="text/javascript"></script>
+	<script type="text/javascript" src="js/scrollnav.min.js"></script>
+	<script src="js/ax-admin02.js?v=1.1" type="text/javascript"></script>
+	<style>
+		.ax-menu>li>a .ax-name {
+			font-weight: normal;
+			font-size: 16px;
+		}
+		.main-header-area {
+			box-shadow: 0 1px 5px 0 rgb(0 0 0 / 20%);
+		}
+		.header-transparent .main-nav>ul>li>a {
+			color: #212121;
+		}
+		.main-nav>ul>li {
+			position: relative;
+			display: flex;
+			align-items: center;
+			/*height: 65px;*/
+		}
+	</style>
+</head>
+
+<body class="ax-admin">
+	<!-- Header Area Start Here -->
+	<div class="main-header-area header-transparent header-sticky" style="position: relative;">
+		<!-- Main Header Area Start -->
+		<div class="main-header">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-2 col-xl-2 col-md-6 col-6">
+						<div class="header-logo d-flex align-items-center">
+							<a href="../index.html">
+								<img style="display: block;" class="nonsticky-logo img-full"
+									src="../assets/images/logo/logo.png" alt="Header Logo">
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-10 col-md-6 col-6 d-flex justify-content-end">
+						<nav class="main-nav d-none d-lg-flex">
+							<ul class="nav">
+								<li>
+									<a class="active" href="../index.html"><span class="menu-text">首页</span>
+									</a>
+								</li>
+								<li><a href="#"><span class="menu-text">产品及服务</span><i class="fa fa-angle-down"></i></a>
+									<ul class="dropdown-submenu dropdown-hover">
+										<li><a href="./txyTanpaifangAdmin.html?isItem=1">碳排放管理软件</a></li>
+										<li><a href="./tanGuanlizixun.html?isItem=2">碳管理咨询</a></li>
+										<!-- <li><a href="index.html">碳账户平台</a></li> -->
+										<li><a href="./keChixuIT.html?isItem=3">可持续领域IT开发</a></li>
+										<!-- <li><a href="index.html">客户案例</a></li> -->
+									</ul>
+								</li>
+								<li><a href="#"><span class="menu-text">新闻动态</span><i
+											class="fa fa-angle-down"></i></a>
+									<ul class="dropdown-submenu dropdown-hover">
+										<li><a href="./nationalNews.html">国内新闻</a></li>
+										<li><a href="./internationalNews.html">国际新闻</a></li>
+										<!-- <li><a href="#">国际新闻</a></li> -->
+									</ul>
+								</li>
+								<!-- <li><a href="about.html"><span class="menu-text">关于我们</span></a></li> -->
+								<li>
+									<a href="#"><span class="menu-text">关于我们</span><i class="fa fa-angle-down"></i></a>
+									<ul class="dropdown-submenu dropdown-hover">
+										<li><a href="../about.html">公司简介</a></li>
+										<li><a href="../contact.html">联系我们</a></li>
+									</ul>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Header Area End Here -->
+	<!-- Slider/Intro Section Start -->
+	<div class="container">
+		<!--nav-->
+		<nav class="ax-flex-col ax-nav">
+			<!--
+		<div class="ax-nav-header">
+			<a href="##" class="ax-logo"><img src="images/ax-logo.png" /></a>
+			<a href="##" class="ax-close-nav ax-iconfont ax-icon-menu-fold"></a>
+		</div>
+		-->
+			<div class="ax-flex-block ax-nav-main">
+				<ul class="ax-menu ax-style-dot" id="menu-basic">
+					<li>
+						<a href="##">
+							<img src="./images/tanpaifang.png" alt=""
+								style="width: 20px; height: 20px; margin-right: 8px;">
+							<span class="ax-name">碳排放管理软件</span>
+							<span class="ax-arrow ax-iconfont ax-icon-right"></span>
+						</a>
+						<ul>
+							<li>
+								<a href="./txyTanpaifangAdmin.html">
+									<span class="ax-name" style="color: #9A9A9A">碳排放管理系统</span>
+								</a>
+							</li>
+							<li>
+								<a href="./tanzichanAdmin.html">
+									<span class="ax-name" style="color: #9A9A9A">碳资产管理系统</span>
+								</a>
+							</li>
+							<li>
+								<a href="./tanjiaoyisuoAdmin.html">
+									<span class="ax-name" style="color: #9A9A9A">碳交易管理系统</span>
+								</a>
+							</li>
+							<li>
+								<a href="./chanpintanzujiAdmin.html">
+									<span class="ax-name" style="color: #9A9A9A">产品碳足迹管理</span>
+								</a>
+							</li>
+							<li>
+								<a href="./nengYuanGuanliAdmin.html">
+									<span class="ax-name" style="color: #9A9A9A">能源管理系统</span>
+								</a>
+							</li>
+							<!--
+							<li>
+								<a href="./index.html">
+									<span class="ax-name" style="color: #9A9A9A">政府碳管理软件</span>
+								</a>
+							</li>
+							<li>
+								<a href="##">
+									<span class="ax-name" style="color: #9A9A9A">电力行业</span>
+								</a>
+							</li>
+							-->
+						</ul>
+					</li>
+
+					<li class="tanguanli_box">
+						<a href="#">
+							<img src="./images/tanguanli.png" alt=""
+								style="width: 20px; height: 20px; margin-right: 8px;">
+							<span class="ax-name">碳管理咨询</span>
+							<span class="ax-arrow ax-iconfont ax-icon-right"></span>
+						</a>
+						<ul>
+							<li>
+								<a href="./tanGuanlizixun.html">
+									<span class="ax-name" style="color: #9A9A9A">碳管理咨询</span>
+								</a>
+							</li>
+							<li>
+								<a href="./tanHecha.html">
+									<span class="ax-name" style="color: #9A9A9A">碳核查</span>
+								</a>
+							</li>
+							<li>
+								<a href="./lvSegongchang.html">
+									<span class="ax-name" style="color: #9A9A9A">绿色工厂</span>
+								</a>
+							</li>
+							<li>
+								<a href="./tanGuanliPeiXun.html">
+									<span class="ax-name" style="color: #9A9A9A">碳管理培训</span>
+								</a>
+							</li>
+							<li>
+								<a href="./qiYeESGzixun.html">
+									<span class="ax-name" style="color: #9A9A9A">企业ESG咨询</span>
+								</a>
+							</li>
+							<li>
+								<a href="./qiYeCCERzixun.html">
+									<span class="ax-name" style="color: #9A9A9A">企业CCER咨询</span>
+								</a>
+							</li>
+							<li>
+								<a href="./qiTaZixunxiangmu.html">
+									<span class="ax-name" style="color: #9A9A9A">其它咨询项目</span>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<!--
+					<li>
+						<a href="#">
+							<img src="./images/tanzhanghu.png" alt=""
+								style="width: 20px; height: 20px; margin-right: 8px;">
+							<span class="ax-name">碳账户平台</span>
+						</a>
+					</li>
+					-->
+					<li>
+						<a href="./keChixuIT.html">
+							<img src="./images/kecixu.png" alt="" style="width: 20px; height: 20px; margin-right: 8px;">
+							<span class="ax-name">可持续领域IT开发</span>
+						</a>
+					</li>
+					<!--
+					<li>
+						<a href="#">
+							<img src="./images/kehuanli.png" alt=""
+								style="width: 20px; height: 20px; margin-right: 8px;">
+							<span class="ax-name">客户案例</span>
+						</a>
+					</li>
+					-->
+				</ul>
+				<div class="ax-mask"></div>
+				<!--收缩后的遮罩层，点击可重新展开菜单-->
+			</div>
+		</nav>
+		<!--end-->
+		<!--header-->
+		<!--
+	<header class="ax-flex-row">
+		<div class="ax-flex-block">
+			<div class="ax-breadcrumb"><a href="##">说明文档</a><i class="ax-gutter ax-iconfont ax-icon-right"></i><span>系统API</span></div>
+		</div>
+		<div class="ax-header-search"><input type="text" name="" placeholder="关键字..."/> <a href="##" class="ax-iconfont ax-icon-search"></a></div>
+	</header>
+	-->
+		<div class="ax-space-header"></div>
+		<!--头部占位-->
+		<!--main-->
+		<main id="article01">
+			<div class="ax-padding">
+				<p><img src="./images/tanhechabg02.jpg" alt=""></p>
+				<div>
+					<h5>介绍</h5>
+					<p>面临国内外碳减排的压力和挑战，企业必须采取实质性的措施予以应对。企业要进行碳减排，首先就要对企业内部的碳排放进行量化，即碳盘查。正所谓，没有量化，就没有管理。企业碳盘查能够帮助企业了解清楚碳排放状况，摸清碳家底，为制定碳减排策略以及实施低碳项目提供数据依据。企业开展碳盘查的工作主要有四大益处：</p>
+					<h5>遵守国内外法规</h5>
+					<p>中国在2009哥本哈根会议后向世界郑重承诺：到2020年碳强度比2005年减少40%-45%。随后的“十二五”规划也将节能减排放到重要的位置，发改委推出五省八市低碳试点等举措都说明中国在政策上要对减排进行规范和标准化。国际上对减排的要求更为严格，例如2012年1月1日起，所有在欧盟境内机场起飞或降落的航班，其全程排放二氧化碳都将纳入EU ETS（欧洲排放交易体系）。根据欧盟公布的名单，全球共有2000多家航空公司被强制纳入该体系，33家中国公司位列其中， 而欧洲市场是中国航空公司日益重要的目标市场。因此航空公司当务之急就是碳排放的盘查以及制定减排的战略。</p>
+					<h5>满足客户需求</h5>
+					<p>对企业而言，尤其是出口类企业，需要满足国外客户碳排放披露的要求。例如，沃尔玛等国外企业要求其供应商提供碳盘查的报告，这样也对中国的出口企业进行碳盘查带来了压力和动力。</p>
+					<h5>减少成本</h5>
+					<p>企业通过碳盘查能够清楚地了解各个时段，各个部门或生产环节产生的二氧化碳排放量，有利于企业制定针对性的节能减排措施，减少成本，同时为参与碳交易、化被动为主动，获取潜在经济收益奠定碳管理能力基础。</p>
+					<h5>提升企业形象</h5>
+					<p>企业越来越重视其社会形象。碳排放信息的披露，能有效的提升企业形象和信任度，赢得投资者和消费者的信赖。企业进行碳盘查就是履行企业社会责任的具体实践。</p>
+				</div>
+
+				<div style="margin-top: 40px;">
+					<h5>工作模式</h5>
+					<p>碳析云使用最广泛的碳盘查标准，即世界资源研究所（WRI）和世界可持续发展工商理事会(WBCSD)发布的《温室气体议定书企业准则》(GHG Protocol) 5 和ISO-14064温室气体核证标准。下面大致介绍一下碳盘查的主要内容，概括为五点：边、源、量、报、查。</p>
+					<p style="margin-bottom: 30px;"><img src="./images/tanhecha_bg1.png" alt=""></p>
+					<h6>边：设立组织边界与运营边界</h6>
+					<h6>A. 组织边界&运营边界 设定目的：</h6>
+					<div>• &nbsp;&nbsp;作为建立组织温室气体盘查边界整体规划之参考依据。</div>
+					<div>• &nbsp;&nbsp;清查与界定温室气体排放种类。</div>
+					<div>• &nbsp;&nbsp;辨识与营运有关的排放，鉴别温室气体直接、能源间接与其他间接排放源。</div>
+					<div>• &nbsp;&nbsp;由建立的组织边界与营运边界，共同组成公司的盘查边界。</div>
+					<div class="ax-break"></div>
+					<div class="ax-break"></div>
+					<h6>B. 组织边界：</h6>
+					<div>• &nbsp;&nbsp;组织可由一个或多个设施组成。设施层级的温室气体排放或 移除可能产生自一个或多个温室气体源或温室气体汇。</div>
+					<div>• &nbsp;&nbsp; 组织应采用下列方法之一来归总其设施层级温室气体排放与/或移除：</div>
+					<div>(a)控制权法：组织对其拥有财务或运营控制权的设施承担所有量化的温室气体排放与移除。</div>
+					<div>(b)股权持分法：组织依股权比例分别承担设施的温室气体排放与移除。</div>
+					<div class="ax-break"></div>
+					<div class="ax-break"></div>
+					<h6>C. 运营边界：</h6>
+					<div>组织应建立其运营边界并形成文件。运营边界的建立包括识别与组织运营相关的温室气体排放与移除，将温室气体排放与移除分类为直接排放、能源间接排放以及其他间接排放。</div>
+					<div>• &nbsp;&nbsp; 范畴一：直接温室气体排放</div>
+					<div>组织拥有或控制的温室气体源的温室气体排放。</div>
+					<div>• &nbsp;&nbsp; 范畴二：能源间接温室气体排放</div>
+					<div>为生产组织输入并消耗的电力、热力或蒸汽而造成的温室气体排放。</div>
+					<div>• &nbsp;&nbsp; 范畴三：其他间接温室气体排放</div>
+					<div>因组织的活动引起的、由其他组织拥有或控制的温室气体源所产生的温室气体排放，但不包括能源间接温室气体排放。</div>
+					<div class="ax-break"></div>
+					<div class="ax-break"></div>
+					<h6>源：鉴别排放源</h6>
+					<div>确定组织内部的温室气体排放源，不同行业和企业的排放源差别很大，需要专业人士帮助企业鉴别碳排放源。主要的排放源分为四大类：固定燃烧排放、移动燃烧排放、制程排放以及逸散排放。</div>
+					<div class="ax-break"></div>
+					<div class="ax-break"></div>
+					<h6>量：量化碳排放</h6>
+					<div>• &nbsp;&nbsp; 直接测量法</div>
+					<div>直接检测排气浓度和流率来测量温室气体排放量，准确度较高但非常少见。</div>
+					<div>• &nbsp;&nbsp; 质量平衡法</div>
+					<div>某些制程排放可用质量平衡法；</div>
+					<div>对制程中物质质量及能量的进出、产生及消耗、转换的平衡计算。</div>
+					<div>• &nbsp;&nbsp; 排放系数法（应用最广泛）</div>
+					<div>温室气体排放量= 活动数据×排放系数</div>
+					<div>活动数据：如燃油使用量、产品产量等；又如交通运输的燃油使用量、车行里程或货物运输量等。</div>
+					<div>排放系数：指根据现有活动数据计算温室气体排放量的系数</div>
+					<div class="ax-break"></div>
+					<div class="ax-break"></div>
+					<h6>报：创建碳排放清单报告</h6>
+					<p>根据ISO-14064或GHG Protocol 标准的要求，生成企业碳排放清单报告。</p>
+					<div class="ax-break"></div>
+					<div class="ax-break"></div>
+					<h6>查：内外部核查</h6>
+					<div>分为内部核查和外部核查。</div>
+					<div>内部核查：由公司内部组织碳盘查的核查工作，对数据收集、计算方法、计算过程以及报告文档等进行核查。</div>
+					<div>外部核查：由第三方机构进行核查。市场上许多企业进行外部核查主要是由于国外客户的要求，需要第三方进行碳排放的核查报告。</div>
+					<div class="ax-break"></div>
+					<div class="ax-break"></div>
+					<h6>产出：</h6>
+					<div>内部核查：对企业的厂区进行调研、收集数据、计算碳排放后，生成碳排放清单以及碳盘查报告；</div>
+					<div>外部核查：邀请第三方核查机构按照ISO-14064标准进行碳排放核查后，生成碳核查报告以及核查认证证书。</div>
+					<div class="ax-break"></div>
+					<div class="ax-break"></div>
+					<h5>服务方案</h5>
+					<p>详情欢迎致电碳析云; 请点击链接 <a href="../contact.html" style="color: #122179">联系我们</a></p>
+					<div class="ax-break"></div>
+					<div class="ax-break"></div>
+				</div>
+			</div>
+		</main>
+	</div>
+	<div class="ax-scrollnav-v" id="article-nav01"><a href="##" class="ax-close ax-iconfont ax-icon-arrow-right"></a></div>
+
+	<script src="js/svgSprites.js?v=1.1" type="text/javascript"></script>
+	<script type='text/javascript'>
+		$(document).ready(function () {
+			// $.cookie("menu-menu-basic",'menu-basic6',{path:"/"});
+			// $.cookie("expand-menu-basic",false,{path:"/"});
+			$('#menu-basic').axMenu({ cookie: true });
+			$(".ax-nav-main,body").axScroll({ horizrailenabled: false });
+			var articlenav01 = document.querySelector('#article-nav01');
+			scrollnav.init(article01, {
+				insertTarget: articlenav01,
+			});
+		});
+	</script>
+<!--	 <script src="../assets/js/vendor/vendor.min.js"></script>-->
+<!--	 <script src="../assets/js/plugins/plugins.min.js"></script>-->
+	<!--Main JS-->
+	<script src="../assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+.newsDetail_box {
+    padding: 30px 0;
+}
+.newsDetail_box .news_title {
+    margin-bottom: 30px;
+}
+.newsDetail_box .news_date {
+    margin-bottom: 20px;
+}
+.newsDetail_box .news_title h2 {
+    text-align: center;
+}

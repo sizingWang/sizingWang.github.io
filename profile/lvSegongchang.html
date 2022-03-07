@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<meta name="apple-touch-fullscreen" content="yes" />
+	<meta name="format-detection" content="email=no" />
+	<meta name="wap-font-scale" content="no" />
+	<meta name="viewport" content="user-scalable=no, width=device-width" />
+	<meta content="telephone=no" name="format-detection" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>绿色工厂</title>
+	<!--
+	<meta name="description"
+		content="AXUI，面向设计，满足设计多样化需求的前端解决方案，减少或剔除JS文件资源和API。能用css写的不用js；能用js写的不用插件；能用插件的不重复使用插件。通过观察本框架的核心文件会发现核心文件只有ax.css和ax.js，加载速度飞快。">
+	<meta name="keywords" content="前端框架,UI,CSS3,HTML5,jQuery,面向设计,前端工程师">
+	-->
+	<link href="https://at.alicdn.com/t/font_1551254_sk7y2quxfyq.css" rel="stylesheet" type="text/css" />
+	<link href="css/ax.css?v=1.1" rel="stylesheet" type="text/css">
+	<link href="css/ax-response.css?v=1.1" rel="stylesheet" type="text/css">
+
+	<link href="css/ax-admin02.css?v=1.1" rel="stylesheet" type="text/css">
+
+	<link rel="stylesheet" href="../assets/css/plugins/plugins.min.css">
+	<link rel="stylesheet" href="../assets/css/style.min.css">
+
+	<script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
+	<script src="js/ax.min.js?v=1.1" type="text/javascript"></script>
+	<script type="text/javascript" src="js/scrollnav.min.js"></script>
+	<script src="js/ax-admin02.js?v=1.1" type="text/javascript"></script>
+	<style>
+		.ax-menu>li>a .ax-name {
+			font-weight: normal;
+			font-size: 16px;
+		}
+		.main-header-area {
+			box-shadow: 0 1px 5px 0 rgb(0 0 0 / 20%);
+		}
+		.header-transparent .main-nav>ul>li>a {
+			color: #212121;
+		}
+		.main-nav>ul>li {
+			position: relative;
+			display: flex;
+			align-items: center;
+			/*height: 65px;*/
+		}
+	</style>
+</head>
+
+<body class="ax-admin">
+	<!-- Header Area Start Here -->
+	<div class="main-header-area header-transparent header-sticky" style="position: relative;">
+		<!-- Main Header Area Start -->
+		<div class="main-header">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-2 col-xl-2 col-md-6 col-6">
+						<div class="header-logo d-flex align-items-center">
+							<a href="../index.html">
+								<img style="display: block;" class="nonsticky-logo img-full"
+									src="../assets/images/logo/logo.png" alt="Header Logo">
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-10 col-md-6 col-6 d-flex justify-content-end">
+						<nav class="main-nav d-none d-lg-flex">
+							<ul class="nav">
+								<li>
+									<a class="active" href="../index.html"><span class="menu-text">首页</span>
+									</a>
+								</li>
+								<li><a href="#"><span class="menu-text">产品及服务</span><i class="fa fa-angle-down"></i></a>
+									<ul class="dropdown-submenu dropdown-hover">
+										<li><a href="./txyTanpaifangAdmin.html?isItem=1">碳排放管理软件</a></li>
+										<li><a href="./tanGuanlizixun.html?isItem=2">碳管理咨询</a></li>
+										<!-- <li><a href="index.html">碳账户平台</a></li> -->
+										<li><a href="./keChixuIT.html?isItem=3">可持续领域IT开发</a></li>
+										<!-- <li><a href="index.html">客户案例</a></li> -->
+									</ul>
+								</li>
+								<li><a href="#"><span class="menu-text">新闻动态</span><i
+											class="fa fa-angle-down"></i></a>
+									<ul class="dropdown-submenu dropdown-hover">
+										<li><a href="./nationalNews.html">国内新闻</a></li>
+										<li><a href="./internationalNews.html">国际新闻</a></li>
+										<!-- <li><a href="#">国际新闻</a></li> -->
+									</ul>
+								</li>
+								<!-- <li><a href="about.html"><span class="menu-text">关于我们</span></a></li> -->
+								<li>
+									<a href="#"><span class="menu-text">关于我们</span><i class="fa fa-angle-down"></i></a>
+									<ul class="dropdown-submenu dropdown-hover">
+										<li><a href="../about.html">公司简介</a></li>
+										<li><a href="../contact.html">联系我们</a></li>
+									</ul>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Header Area End Here -->
+	<!-- Slider/Intro Section Start -->
+	<div class="container">
+		<!--nav-->
+		<nav class="ax-flex-col ax-nav">
+			<!--
+		<div class="ax-nav-header">
+			<a href="##" class="ax-logo"><img src="images/ax-logo.png" /></a>
+			<a href="##" class="ax-close-nav ax-iconfont ax-icon-menu-fold"></a>
+		</div>
+		-->
+			<div class="ax-flex-block ax-nav-main">
+				<ul class="ax-menu ax-style-dot" id="menu-basic">
+					<li>
+						<a href="##">
+							<img src="./images/tanpaifang.png" alt=""
+								style="width: 20px; height: 20px; margin-right: 8px;">
+							<span class="ax-name">碳排放管理软件</span>
+							<span class="ax-arrow ax-iconfont ax-icon-right"></span>
+						</a>
+						<ul>
+							<li>
+								<a href="./txyTanpaifangAdmin.html">
+									<span class="ax-name" style="color: #9A9A9A">碳排放管理系统</span>
+								</a>
+							</li>
+							<li>
+								<a href="./tanzichanAdmin.html">
+									<span class="ax-name" style="color: #9A9A9A">碳资产管理系统</span>
+								</a>
+							</li>
+							<li>
+								<a href="./tanjiaoyisuoAdmin.html">
+									<span class="ax-name" style="color: #9A9A9A">碳交易管理系统</span>
+								</a>
+							</li>
+							<li>
+								<a href="./chanpintanzujiAdmin.html">
+									<span class="ax-name" style="color: #9A9A9A">产品碳足迹管理</span>
+								</a>
+							</li>
+							<li>
+								<a href="./nengYuanGuanliAdmin.html">
+									<span class="ax-name" style="color: #9A9A9A">能源管理系统</span>
+								</a>
+							</li>
+							<!--
+							<li>
+								<a href="./index.html">
+									<span class="ax-name" style="color: #9A9A9A">政府碳管理软件</span>
+								</a>
+							</li>
+							<li>
+								<a href="##">
+									<span class="ax-name" style="color: #9A9A9A">电力行业</span>
+								</a>
+							</li>
+							-->
+						</ul>
+					</li>
+
+					<li class="tanguanli_box">
+						<a href="#">
+							<img src="./images/tanguanli.png" alt=""
+								style="width: 20px; height: 20px; margin-right: 8px;">
+							<span class="ax-name">碳管理咨询</span>
+							<span class="ax-arrow ax-iconfont ax-icon-right"></span>
+						</a>
+						<ul>
+							<li>
+								<a href="./tanGuanlizixun.html">
+									<span class="ax-name" style="color: #9A9A9A">碳管理咨询</span>
+								</a>
+							</li>
+							<li>
+								<a href="./tanHecha.html">
+									<span class="ax-name" style="color: #9A9A9A">碳核查</span>
+								</a>
+							</li>
+							<li>
+								<a href="./lvSegongchang.html">
+									<span class="ax-name" style="color: #9A9A9A">绿色工厂</span>
+								</a>
+							</li>
+							<li>
+								<a href="./tanGuanliPeiXun.html">
+									<span class="ax-name" style="color: #9A9A9A">碳管理培训</span>
+								</a>
+							</li>
+							<li>
+								<a href="./qiYeESGzixun.html">
+									<span class="ax-name" style="color: #9A9A9A">企业ESG咨询</span>
+								</a>
+							</li>
+							<li>
+								<a href="./qiYeCCERzixun.html">
+									<span class="ax-name" style="color: #9A9A9A">企业CCER咨询</span>
+								</a>
+							</li>
+							<li>
+								<a href="./qiTaZixunxiangmu.html">
+									<span class="ax-name" style="color: #9A9A9A">其它咨询项目</span>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<!--
+					<li>
+						<a href="#">
+							<img src="./images/tanzhanghu.png" alt=""
+								style="width: 20px; height: 20px; margin-right: 8px;">
+							<span class="ax-name">碳账户平台</span>
+						</a>
+					</li>
+					-->
+					<li>
+						<a href="./keChixuIT.html">
+							<img src="./images/kecixu.png" alt="" style="width: 20px; height: 20px; margin-right: 8px;">
+							<span class="ax-name">可持续领域IT开发</span>
+						</a>
+					</li>
+					<!--
+					<li>
+						<a href="#">
+							<img src="./images/kehuanli.png" alt=""
+								style="width: 20px; height: 20px; margin-right: 8px;">
+							<span class="ax-name">客户案例</span>
+						</a>
+					</li>
+					-->
+				</ul>
+				<div class="ax-mask"></div>
+				<!--收缩后的遮罩层，点击可重新展开菜单-->
+			</div>
+		</nav>
+		<!--end-->
+		<!--header-->
+		<!--
+	<header class="ax-flex-row">
+		<div class="ax-flex-block">
+			<div class="ax-breadcrumb"><a href="##">说明文档</a><i class="ax-gutter ax-iconfont ax-icon-right"></i><span>系统API</span></div>
+		</div>
+		<div class="ax-header-search"><input type="text" name="" placeholder="关键字..."/> <a href="##" class="ax-iconfont ax-icon-search"></a></div>
+	</header>
+	-->
+		<div class="ax-space-header"></div>
+		<!--头部占位-->
+		<!--main-->
+		<main id="article01">
+			<p><img src="./images/tanhechabg01.jpg" alt=""></p>
+			<div class="ax-padding">
+				<h5>介绍</h5>
+				<p>《中国制造2025》明确提出要积极构建绿色制造体系，走生态文明的发展道路，支持企业开发绿色产品、创建绿色工厂、建设绿色工业园区、打造绿色供应链、壮大绿色企业、强化绿色监管和开展绿色评价。《工业绿色发展规划（2016- 2020年）》和《绿色制造工程实施指南（2016-2020年）》进一步对绿色制造体系建设的工作任务进行了细化，详细阐述了绿色制造体系的建设内容和“十三五”期间的阶段性目标。</p>
+				<p>绿色工厂是指实现用地集约化、原料无害化、生产洁净化、废物资源化、能源低碳化的工厂。工厂是绿色制造的主体。对绿色工厂进行评价，有助于在行业内树立标杆，引导和规范工厂实施绿色制造。2016年国家工业和信息化部发布了《工业和信息化部办公厅关于开展绿色制造体系建设的通知》、《绿色制造标准体系建设指南》 等一些列的文件指南，提出了“2020年建成千家绿色工厂”的目标。</p>
+				<p>作为碳管理咨询及软件平台开发领域的研究者和创新者，碳析云一直密切关注着全国节能低碳行业的“碳管理”、“绿色制造”相关政策及市场格局，并为有关政府和企业提供能了多次定制咨询服务，至今与碳析云接触及合作过的企业和园区中就有不少已成功获批绿色工厂和绿色园区。</p>
+				<div class="ax-break"></div>
+				<div class="ax-break"></div>
+				<h5>服务方案</h5>
+				<p>详情欢迎致电碳析云; 请点击链接 <a href="../contact.html" style="color: #122179">联系我们</a></p>
+				<div class="ax-break"></div>
+				<div class="ax-break"></div>
+			</div>
+		</main>
+	</div>
+	<div class="ax-scrollnav-v" id="article-nav01"><a href="##" class="ax-close ax-iconfont ax-icon-arrow-right"></a></div>
+
+	<script src="js/svgSprites.js?v=1.1" type="text/javascript"></script>
+	<script type='text/javascript'>
+		$(document).ready(function () {
+			// $.cookie("menu-menu-basic",'menu-basic6',{path:"/"});
+			// $.cookie("expand-menu-basic",false,{path:"/"});
+			$('#menu-basic').axMenu({ cookie: true });
+			$(".ax-nav-main,body").axScroll({ horizrailenabled: false });
+			var articlenav01 = document.querySelector('#article-nav01');
+			scrollnav.init(article01, {
+				insertTarget: articlenav01,
+			});
+		});
+	</script>
+<!--	 <script src="../assets/js/vendor/vendor.min.js"></script>-->
+<!--	 <script src="../assets/js/plugins/plugins.min.js"></script>-->
+	<!--Main JS-->
+	<script src="../assets/js/main.js"></script>
+</body>
+</html>
